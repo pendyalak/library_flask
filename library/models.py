@@ -2,7 +2,7 @@ from peewee import *
 import datetime
 from settings import *
 
-# TODO: find what *args and **kwargs?
+
 database = MySQLDatabase(**LIBRARY_DATABASE)
 
 class UnknownField(object):
